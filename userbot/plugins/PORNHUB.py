@@ -54,6 +54,8 @@ async def _(event):
            
            "PORNHUB",
 
+          "Fuck u 😂_", 
+
         ]
 
         for i in animation_ttl:
