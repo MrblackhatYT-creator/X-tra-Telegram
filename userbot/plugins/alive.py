@@ -9,7 +9,15 @@ from userbot.utils import admin_cmd
 async def _(event):
     if event.fwd_from:
         return
-    mentions = "` Jinda Hu Sarr ^.^ \nYour bot is running\n\nTelethon version: 6.9.0\nPython: 3.7.3\nfork by:` @A_Dark_Princ3\n`Database Status: Databases functioning normally!\n\n Always with you, my master! `"
+    mentions = " YO BRO JABTAK YE KHEL KHATAM NHI HOTA 
+APUN IDHARICH HAI
+
+CURRENT CLAN: 2020
+CURRENT RANK: CONQUEROR
+GACHO GACHO BOT by: @ZOZO_MERCURY
+JINDAGI KA STATUS: functioning normally!
+
+ HAMESHA SAATH RHEGA MAI TERE BRO <3"
     chat = await event.get_input_chat()
     async for x in borg.iter_participants(chat, filter=ChannelParticipantsAdmins):
         mentions += f""
